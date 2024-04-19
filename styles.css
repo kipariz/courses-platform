@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    /* #b1bac5 */
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    border-bottom: 1px solid white;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.right-nav-panel{
+    margin-left: auto;
+    align-self: end;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
